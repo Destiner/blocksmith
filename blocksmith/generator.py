@@ -24,6 +24,8 @@ class KeyGenerator:
         big_int = big_int % (self.CURVE_ORDER - 1) # key < curve order
         big_int = big_int + 1 # key > 0
         key = hex(big_int)[2:]
+        # Add leading zeros if the hex key is smaller than 64 chars
+        key = key.zfill(self.KEY_BYTES * 2)
         return key
 
     def __init_pool(self):
