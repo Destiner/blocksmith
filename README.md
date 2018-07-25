@@ -42,3 +42,13 @@ print(checksum_address)
 # 0x1269645a46A3e86c1a3C3De8447092D90f6F04ED
 
 ```
+
+## TODO
+- [ ] Brainwallets
+- [ ] Mnemonic phrases
+- [ ] Sign/verfiy transactions (?)
+
+## Contact
+Timur Badretdinov
+- destinerx@gmail.com
+- https://twitter.com/DestinerX
