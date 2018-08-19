@@ -2,8 +2,8 @@ from setuptools import setup
 setup(
     name = 'blocksmith',
     packages = ['blocksmith'],
-    install_requires = ['ecdsa'],
-    version = '1.2',
+    install_requires = ['ecdsa', 'pycryptodome'],
+    version = '1.2.1',
     description = 'Bitcoin/Ethereum key manipulation',
     author = 'Timur Badretdinov',
     author_email = 'destinerx@gmail.com',
