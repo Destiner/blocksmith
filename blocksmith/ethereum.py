@@ -44,5 +44,5 @@ class EthereumWallet:
         keccak_digest = keccak_hash.hexdigest()
         # Take last 20 bytes
         wallet_len = 40
-        wallet = '0x' + keccak_digest[-wallet_len:]
+        wallet = 'yy' + keccak_digest[-wallet_len:]
         return wallet
